@@ -8,6 +8,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.12",
+    "@pbe/react-yandex-maps": "^1.2.2",
     "@popperjs/core": "^2.11.6",
     "@react-google-maps/api": "^2.16.0",
     "@testing-library/jest-dom": "^5.16.5",

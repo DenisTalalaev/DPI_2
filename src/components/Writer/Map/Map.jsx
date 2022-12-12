@@ -1,19 +1,31 @@
-import React, {useMemo} from 'react';
-import {GoogleMap, MarkerF} from "@react-google-maps/api";
+import React from 'react';
+
 import './Map.css'
 import {useTranslation} from "react-i18next";
+import {Map, Placemark, YMaps} from "@pbe/react-yandex-maps";
 
-const Map = (props) => {
+const OwnMap = (props) => {
+
     const {t} = useTranslation();
-    const center = useMemo(() => ({lat: props.coordinates.latitude, lng: props.coordinates.longitude}), []);
+    const defaultState = {
+        center: [props.coordinates.latitude, props.coordinates.longitude],
+        zoom: 7,
+        controls: ['zoomControl'],
+    };
+
+    const yandexModules = ['control.ZoomControl'];
+
     return (
         <div>
             <h1>{t('place_of_work')}</h1>
-            <GoogleMap zoom={13} center={center} mapContainerClassName='container'>
-                <MarkerF position={center} />
-            </GoogleMap>
+            <YMaps>
+                <Map defaultState={defaultState} modules={yandexModules} width="100%" height= "15vh">
+                    <Placemark
+                        geometry={[props.coordinates.latitude, props.coordinates.longitude]}/>
+                </Map>
+            </YMaps>
         </div>
     )
 }
 
-export default Map;
+export default OwnMap;
