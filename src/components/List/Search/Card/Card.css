@@ -1,0 +1,8 @@
+.filmmaker {
+    margin: 0 auto;
+}
+
+.filmmaker img {
+    height: 200px;
+    border: 2px solid black;
+}
