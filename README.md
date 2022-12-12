@@ -1,2 +1,1 @@
-# DPI_2
- Lab 2
+https://denistalalaev.github.io/DPI_2/
