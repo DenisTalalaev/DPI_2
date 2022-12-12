@@ -4,7 +4,7 @@ import Body from "./components/Home/Body/Body"
 import developersInfo from "./data/developersInfo";
 import List from "./components/List/List"
 import Writer from "./components/Writer/Writer";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
 import writersDatabase from "./data/writersDatabase";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
             randomPerson = writersDatabase[i]
     }
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div>
                 <Header/>
                 <div>
@@ -26,7 +26,7 @@ const App = () => {
                     </Routes>
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
