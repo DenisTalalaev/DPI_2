@@ -19,7 +19,7 @@ const OwnMap = (props) => {
         <div>
             <h1>{t('place_of_work')}</h1>
             <YMaps>
-                <Map defaultState={defaultState} modules={yandexModules} width="100%" height='300'>
+                <Map defaultState={defaultState} modules={yandexModules} width="100%" height="60vh">
                     <Placemark
                         geometry={[props.coordinates.latitude, props.coordinates.longitude]}/>
                 </Map>
