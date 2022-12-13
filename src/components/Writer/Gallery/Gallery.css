@@ -72,6 +72,10 @@
     }
 }
 
+h1 {
+    color: white;
+}
+
 @media (max-width: 480px) {
     .gallery {
         -webkit-column-count: 1;

@@ -4,5 +4,14 @@
 
 .avatar {
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid white;
+}
+
+.blac {
+    color: white;
+}
+
+Timeline {
+    color: black;
+    /* background: black; */
 }

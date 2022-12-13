@@ -10,13 +10,13 @@ const Writer = (props) => {
 
     return (
         <div className='wrapper'>
-            <h1>{props.info.full_name}</h1>
-            <h4>({props.info.life_dates})</h4>
-            <img src={props.info.main_photo} alt="" className='avatar'/>
+            <h1 className='blac'>{props.info.full_name}</h1>
+            <h4 className='blac'>({props.info.life_dates})</h4>
+            <img className='blac' src={props.info.main_photo} alt="" className='avatar'/>
             <Timeline info={props.info.timeline}/>
-            <Gallery photos={props.info.gallery}/>
-            <VideosList videos={props.info.videos}/>
-            <OwnMap coordinates={props.info.coordinates}/>
+            <Gallery className='blac' photos={props.info.gallery}/>
+            <VideosList className='blac' videos={props.info.videos}/>
+            <OwnMap className='blac' coordinates={props.info.coordinates}/>
         </div>
     );
 };
