@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DPI_2/static/css/main.543eee8e.css",
-    "main.js": "/DPI_2/static/js/main.c7042baa.js",
+    "main.css": "/DPI_2/static/css/main.63e8d3e0.css",
+    "main.js": "/DPI_2/static/js/main.ac4e5a7f.js",
     "static/media/gallery4.jpg": "/DPI_2/static/media/gallery4.0377a24107ebcf9d1239.jpg",
     "static/media/do.svg": "/DPI_2/static/media/do.3ecb625b75ec64be4376.svg",
     "static/media/gallery5.jpg": "/DPI_2/static/media/gallery5.d0be07cce5b268d02c3a.jpg",
@@ -176,7 +176,6 @@
     "static/media/tl.svg": "/DPI_2/static/media/tl.d8e3bbb05aa228ef7591.svg",
     "static/media/dj.svg": "/DPI_2/static/media/dj.52e5fa9d44c086c8bca4.svg",
     "static/media/bv.svg": "/DPI_2/static/media/bv.3d8e6f49fad8459575e1.svg",
-    "index.html": "/DPI_2/index.html",
     "static/media/cl.svg": "/DPI_2/static/media/cl.107ef3fb7d1ea271cc2e.svg",
     "static/media/sy.svg": "/DPI_2/static/media/sy.241b5816ff0ffd6b7707.svg",
     "static/media/sc.svg": "/DPI_2/static/media/sc.9ef5262cc695adcc613f.svg",
@@ -186,6 +185,7 @@
     "static/media/ps.svg": "/DPI_2/static/media/ps.8e2aad287a0b3284d3b1.svg",
     "static/media/ax.svg": "/DPI_2/static/media/ax.fb29ad0e1dbf3e0eb0f0.svg",
     "static/media/xx.svg": "/DPI_2/static/media/xx.0b7434ecd0bfcce77f8a.svg",
+    "index.html": "/DPI_2/index.html",
     "static/media/gm.svg": "/DPI_2/static/media/gm.dfd25b88d3660d236c00.svg",
     "static/media/bh.svg": "/DPI_2/static/media/bh.59ba382068ede80f9cb0.svg",
     "static/media/gb.svg": "/DPI_2/static/media/gb.516897fd3988e35032b7.svg",
@@ -280,11 +280,11 @@
     "static/media/pl.svg": "/DPI_2/static/media/pl.cd835d05865e496ff6b8.svg",
     "static/media/de.svg": "/DPI_2/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/DPI_2/static/media/bd.0ad8c443ef4d47ea0497.svg",
-    "main.543eee8e.css.map": "/DPI_2/static/css/main.543eee8e.css.map",
-    "main.c7042baa.js.map": "/DPI_2/static/js/main.c7042baa.js.map"
+    "main.63e8d3e0.css.map": "/DPI_2/static/css/main.63e8d3e0.css.map",
+    "main.ac4e5a7f.js.map": "/DPI_2/static/js/main.ac4e5a7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.543eee8e.css",
-    "static/js/main.c7042baa.js"
+    "static/css/main.63e8d3e0.css",
+    "static/js/main.ac4e5a7f.js"
   ]
 }
